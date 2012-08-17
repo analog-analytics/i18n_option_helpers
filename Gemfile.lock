@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    i18n_option_helpers (0.0.1)
+      i18n
+      mocha
+      shoulda-context
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    i18n (0.6.0)
+    metaclass (0.0.1)
+    mocha (0.12.3)
+      metaclass (~> 0.0.1)
+    shoulda-context (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  i18n_option_helpers!
