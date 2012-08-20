@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'i18n'
   s.add_runtime_dependency 'mocha'
-  s.add_runtime_dependency 'shoulda-context'
+  s.add_runtime_dependency 'shoulda'
 
   s.files = Dir["{lib|test}/**/*.rb"]
   s.homepage = "http://github.com/analoganalytics/selective_validation"
