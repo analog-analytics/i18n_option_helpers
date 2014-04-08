@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'i18n_option_helpers'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.date = '2012-08-16'
   s.summary = "Helpers for using i18n scopes for translated key / value options"
   s.description = "Extends the functionality of I18n to allow easy use of scopes to be used as key / value" \
