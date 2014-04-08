@@ -9,8 +9,9 @@ Gem::Specification.new do |s|
   s.email = "jmgarrison@gmail.com"
 
   s.add_runtime_dependency 'i18n'
-  s.add_runtime_dependency 'mocha'
-  s.add_runtime_dependency 'shoulda'
+
+  s.add_development_dependency 'mocha'
+  s.add_development_dependency 'shoulda'
 
   s.files = Dir["{lib|test}/**/*.rb"]
   s.homepage = "http://github.com/analoganalytics/selective_validation"
