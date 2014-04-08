@@ -1,8 +1,9 @@
 require_relative "../lib/i18n_option_helpers.rb"
 
+require 'test/unit'
 require 'shoulda-context'
 require 'i18n'
-require 'mocha'
+require 'mocha/test_unit'
 
 class I18nOptionHelpersTest < Test::Unit::TestCase
   context "options_for_select_from_scope" do
